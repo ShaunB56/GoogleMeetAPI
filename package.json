@@ -29,5 +29,8 @@
     "puppeteer": "^13.7.0",
     "puppeteer-extra": "^3.2.3",
     "puppeteer-extra-plugin-stealth": "^2.9.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
   }
 }
