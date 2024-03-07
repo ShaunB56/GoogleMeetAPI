@@ -3,8 +3,8 @@ const client = new Meet();
 
 let config = {
   meetingLink: "https://meet.google.com/xyz-wxyz-xyz",
-  email: "",
-  pw: "",
+  email: process.env.GOOGLE_USERNAME,
+  pw: process.env.GOOGLE_PASSWORD,
 };
 
 async function command(client, message) {
